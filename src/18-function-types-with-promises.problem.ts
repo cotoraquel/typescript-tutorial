@@ -22,14 +22,14 @@ it("Should create the user, then get them", async () => {
     async () => "123",
     async (id) => ({
       id,
-      firstName: "Matt",
-      lastName: "Pocock",
+      firstName: "Raquel",
+      lastName: "Coto",
     }),
   );
 
   expect(user).toEqual({
     id: "123",
-    firstName: "Matt",
-    lastName: "Pocock",
+    firstName: "Raquel",
+    lastName: "Coto",
   });
 });

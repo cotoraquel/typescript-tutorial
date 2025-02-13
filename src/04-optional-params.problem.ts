@@ -8,13 +8,13 @@ export const getName = (first: string, last: string) => {
 };
 
 it("Should work with just the first name", () => {
-  const name = getName("Matt");
+  const name = getName("Raquel");
 
-  expect(name).toEqual("Matt");
+  expect(name).toEqual("Raquel");
 });
 
 it("Should work with the first and last name", () => {
-  const name = getName("Matt", "Pocock");
+  const name = getName("Raquel", "Coto");
 
-  expect(name).toEqual("Matt Pocock");
+  expect(name).toEqual("Raquel Coto");
 });

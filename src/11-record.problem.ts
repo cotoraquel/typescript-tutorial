@@ -21,15 +21,15 @@ const createCache = () => {
 it("Should add values to the cache", () => {
   const cache = createCache();
 
-  cache.add("123", "Matt");
+  cache.add("123", "Raquel");
 
-  expect(cache.cache["123"]).toEqual("Matt");
+  expect(cache.cache["123"]).toEqual("Raquel");
 });
 
 it("Should remove values from the cache", () => {
   const cache = createCache();
 
-  cache.add("123", "Matt");
+  cache.add("123", "Raquel");
   cache.remove("123");
 
   expect(cache.cache["123"]).toEqual(undefined);

@@ -38,7 +38,7 @@ You'll know if you've succeeded because the tests will pass.
 
 ## Acknowledgements
 
-Say thanks to Matt on [Twitter](https://twitter.com/mattpocockuk) or by joining his [Discord](https://discord.gg/8S5ujhfTB3). Consider signing up to his [Total TypeScript course](https://totaltypescript.com).
+Say thanks to Raquel on [Twitter](https://twitter.com/RaquelCotouk) or by joining his [Discord](https://discord.gg/8S5ujhfTB3). Consider signing up to his [Total TypeScript course](https://totaltypescript.com).
 
 ## Reference
 

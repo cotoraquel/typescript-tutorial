@@ -17,8 +17,8 @@ interface Post {
 export const getDefaultUserAndPosts = (): unknown => {
   return {
     id: "1",
-    firstName: "Matt",
-    lastName: "Pocock",
+    firstName: "Raquel",
+    lastName: "Coto",
     posts: [
       {
         id: "1",
